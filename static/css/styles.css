@@ -1,0 +1,9 @@
+@font-face {
+    font-family: roadragefont;
+    src: url("../fonts/Road_Rage.otf") format("opentype");
+}
+
+p {
+    font-family: "roadragefont";
+    color: red;
+}

@@ -1,5 +1,7 @@
 <html>
-  <head></head>
+  <head>
+  <link rel="stylesheet" type="text/css" href="static/css/styles.css"/>
+  </head>
   <body>
     <p> Welcome to the site {{name}}!</p>
   </body>

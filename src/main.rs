@@ -3,6 +3,7 @@
 #[macro_use]
 extern crate rocket;
 
+use rocket_contrib::serve::StaticFiles;
 use rocket_contrib::templates::Template;
 use std::collections::HashMap;
 
@@ -14,6 +15,7 @@ fn index() -> Template {
 
 fn main() {
     rocket::ignite()
+        .mount("/static", StaticFiles::from("static"))
         .mount("/", routes![index])
         .attach(Template::fairing())
         .launch();
