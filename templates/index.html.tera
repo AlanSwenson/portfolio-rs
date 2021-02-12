@@ -3,6 +3,20 @@
   <link rel="stylesheet" type="text/css" href="static/css/styles.css"/>
   </head>
   <body>
-    <p> Welcome to the site {{name}}!</p>
+  <header class="">
+
+  <div class="row">
+    <div class="col">
+      <h1 class="glow">Developer Portfolio</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h2 class="glow">{{name}}</h2>
+    </div>
+  </div>
+    
+    </header>
   </body>
 </html>

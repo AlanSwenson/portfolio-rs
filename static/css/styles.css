@@ -3,7 +3,44 @@
     src: url("../fonts/Road_Rage.otf") format("opentype");
 }
 
-p {
-    font-family: "roadragefont";
-    color: red;
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+body {
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, purple);
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    font-family: "roadragefont";
+}
+
+header h1 {
+    font-size: 4em;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.glow {
+    color: #ff9cdc;
+    text-align: center;
+    text-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }

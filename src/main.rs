@@ -9,7 +9,7 @@ use std::collections::HashMap;
 
 #[get("/")]
 fn index() -> Template {
-    let context: HashMap<&str, &str> = [("name", "Alan")].iter().cloned().collect();
+    let context: HashMap<&str, &str> = [("name", "Alan Swenson")].iter().cloned().collect();
     Template::render("index", &context)
 }
 
