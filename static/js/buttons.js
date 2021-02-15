@@ -14,6 +14,8 @@ $(document).ready(function () {
         return $(value).attr('data-id');
     }));
 
+    $('[data-id=1]').addClass('active');
+
     // use arrows to cycle through sections
     $('.arrow').click(function () {
         var current_active = $('.active')
