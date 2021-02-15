@@ -8,7 +8,7 @@
       <header class="">
         {% include "header" %}
       </header>
-      <main class="align-items-center">
+      <main class="align-items-center" id="main">
         {% include "main" %}
         {% include "sun" %}
         {# <div class="road"></div> #}

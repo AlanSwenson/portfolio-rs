@@ -66,23 +66,37 @@ footer {
 }
 
 main {
-    padding-top: 20px;
     font-family: "whiterabbit";
     color: greenyellow;
     width: 80%;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-style: solid;
+    border-color: greenyellow;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-content:not(:first-child) {
+    display: none;
+}
+
+main h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 main p {
     font-size: 1.4em;
+    line-height: 1.2;
+    letter-spacing: -1px;
 }
 
 header {
     justify-content: center;
     align-items: center;
     font-family: "roadragefont";
+    margin-bottom: 30px;
 }
 
 header h1 {

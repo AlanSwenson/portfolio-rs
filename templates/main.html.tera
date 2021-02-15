@@ -1,16 +1,10 @@
 <div class="row">
     <div class="col align-items-center p-2em">
-        <h1>Main Area</h1>
-        <p>
-            I'm baby etsy brunch irony next level paleo, air plant DIY tumeric kale chips shaman offal selfies taxidermy. Listicle snackwave celiac tacos ugh, four loko hella edison bulb
-            succulents four dollar toast actually la croix. Cronut vape succulents, air plant kale chips cloud bread selfies typewriter health goth gastropub. Bushwick cliche ennui semiotics
-            pok pok jianbing meggings. Meh literally raclette slow-carb, cardigan DIY crucifix typewriter tbh irony tattooed whatever franzen. Skateboard forage offal stumptown, four loko tbh
-            jianbing man braid cray tousled. Roof party street art truffaut, kinfolk bushwick vape literally tumeric. Put a bird on it quinoa chicharrones gluten-free, hell of occupy tumeric
-            fam kitsch next level. Gastropub tattooed live-edge, cliche lomo twee coloring book tousled yr echo park gochujang cred. Single-origin coffee street art keffiyeh, bicycle rights
-            ennui blue bottle mixtape semiotics whatever viral poutine green juice hell of poke roof party. Street art hoodie hexagon franzen, intelligentsia seitan af copper mug pug ethical.
-            Echo park dreamcatcher vegan scenester. Pour-over truffaut succulents humblebrag wayfarers fixie hot chicken lomo. Whatever aesthetic farm-to-table kogi messenger bag beard man
-            braid cardigan man bun gochujang forage pinterest twee truffaut. Unicorn disrupt post-ironic, irony asymmetrical 8-bit street art kitsch fam beard iPhone venmo readymade organic
-            succulents.
-        </p>
+        <div class="main-content active col align-items-center">
+            {% include "about" %}
+        </div>
+        <div class="main-content col align-items-center">
+            {% include "projects" %}
+        </div>
     </div>
 </div>
