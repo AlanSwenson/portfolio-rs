@@ -3,13 +3,16 @@
     {% include "styles" %}
   </head>
   <body>
-    <header class="">
-      {% include "header" %}
-    </header>
-    <main>
-      {% include "main" %}
-    </main>
-    <footer>
+    <div class="content">
+      <header class="">
+        {% include "header" %}
+      </header>
+      <main>
+        {% include "main" %}
+      </main>
+      <div class="push"></div>
+    </div>
+    <footer class="footer">
       {% include "footer" %}
     </footer>
   </body>

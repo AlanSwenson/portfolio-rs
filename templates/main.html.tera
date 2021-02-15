@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col">
-        Main Area
+    <div class="col align-items-center">
+        <h1>Main Area</h1>
     </div>
 </div>

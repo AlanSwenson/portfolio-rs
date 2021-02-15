@@ -1,3 +1,7 @@
+:root {
+    --footer-height: 70px;
+  }
+
 @font-face {
     font-family: roadragefont;
     src: url("../fonts/Road_Rage.otf") format("opentype");
@@ -20,6 +24,36 @@
 body {
     background-color: black; /* For browsers that do not support gradients */
     background-image: linear-gradient(black, purple);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin: 0 auto calc(-1 * var(--footer-height));
+}
+
+.footer, .push {
+    height: var(--footer-height);
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+main {
+    padding-top: 20px;
 }
 
 header {
