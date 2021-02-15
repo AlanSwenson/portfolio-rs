@@ -28,7 +28,20 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-  }
+}
+
+.d-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.center {
+    align-items: center;
+}
 
 body {
     background-color: black; /* For browsers that do not support gradients */
@@ -61,8 +74,8 @@ footer {
     align-items: center;
 }
 
-.p-2em {
-    padding: 2em;
+.py-2em {
+    padding: 2em 0;
 }
 
 main {
@@ -73,11 +86,16 @@ main {
     background-color: rgba(0, 0, 0, 0.4);
     border-style: solid;
     border-color: greenyellow;
+    border-width: 24px 2px 2px 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.main-content:not(:first-child) {
+.main-content:not(.active) {
     display: none;
+}
+
+.arrow {
+    padding: 2em;
 }
 
 main h2 {

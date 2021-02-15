@@ -1,10 +1,17 @@
 <div class="row">
-    <div class="col align-items-center p-2em">
-        <div class="main-content active col align-items-center">
-            {% include "about" %}
-        </div>
-        <div class="main-content col align-items-center">
-            {% include "projects" %}
+    <div class="col align-items-center py-2em">
+        <div class="row center">
+            <div class="arrow left">
+                Left
+            </div>
+            <div class="main-content active col align-items-center" data-id="1">
+                {% include "about" %}
+            </div>
+            <div class="main-content col align-items-center" data-id="2">
+                {% include "projects" %}
+            </div>
+            <div class="arrow right">Right
+            </div>
         </div>
     </div>
 </div>
