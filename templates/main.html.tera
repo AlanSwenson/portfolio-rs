@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col align-items-center py-2em">
-        <div class="row center">
+        <div class="row center" id="main-content">
             <div class="arrow left">
-                Left
+                prev.
             </div>
             <div class="main-content active col align-items-center" data-id="1">
                 {% include "about" %}
@@ -10,7 +10,7 @@
             <div class="main-content col align-items-center" data-id="2">
                 {% include "projects" %}
             </div>
-            <div class="arrow right">Right
+            <div class="arrow right">next.
             </div>
         </div>
     </div>

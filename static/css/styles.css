@@ -83,6 +83,7 @@ main {
     color: greenyellow;
     width: 80%;
     margin: auto;
+    height: 60vh;
     background-color: rgba(0, 0, 0, 0.4);
     border-style: solid;
     border-color: greenyellow;
@@ -94,8 +95,28 @@ main {
     display: none;
 }
 
+.main-content .inner {
+    margin: auto;
+    height: 43vh;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
 .arrow {
-    padding: 2em;
+    padding: .5em 1em;
+    background-color: purple;
+    height: max-content;
+    margin: 0 1em;
+    border-style: solid;
+    border-color: greenyellow;
+    border-width: 2px;
+    
+}
+.right {
+    cursor: e-resize;
+}
+.left {
+    cursor: w-resize;
 }
 
 main h2 {
@@ -127,6 +148,28 @@ header h2 {
     font-size: 2em;
     margin: 0;
 }
+
+/*
+ *  Custom Scrollbar
+ */
+
+ #main-content .inner::-webkit-scrollbar-track
+ {
+     background-color: purple;
+ }
+ #main-content .inner::-webkit-scrollbar
+ {
+     width: 6px;
+     background-color: purple;
+ }
+ #main-content .inner::-webkit-scrollbar-thumb
+ {
+     background-color: greenyellow;
+ }
+
+
+
+
 
 .glow {
     color: #ff9cdc;
