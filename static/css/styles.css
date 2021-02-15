@@ -3,6 +3,15 @@
   }
 
 @font-face {
+    font-family: whiterabbit;
+    src:    url('../fonts/whitrabt.eot');
+    src:    url('../fonts/whitrabt.woff') format('woff'), 
+            url('../fonts/whitrabt.ttf') format('truetype'), 
+            url('../fonts/whitrabt.svg') format('svg'),
+            url("../fonts/whitrabt.otf") format("opentype");
+}
+
+@font-face {
     font-family: roadragefont;
     src: url("../fonts/Road_Rage.otf") format("opentype");
 }
@@ -52,8 +61,22 @@ footer {
     align-items: center;
 }
 
+.p-2em {
+    padding: 2em;
+}
+
 main {
     padding-top: 20px;
+    font-family: "whiterabbit";
+    color: greenyellow;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+main p {
+    font-size: 1.4em;
 }
 
 header {
@@ -78,3 +101,73 @@ header h2 {
     text-align: center;
     text-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
+
+/* sun and road */
+.road {
+    width: 100%;
+    height: 40em;
+    overflow: hidden;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0px,
+        rgba(62, 250, 240, 0.5) 0%,
+        rgba(62, 250, 240, 0.5) 3px,
+        rgba(0, 0, 0, 0) 0px
+      ),
+      linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0) 0px,
+        rgba(62, 250, 240, 0.5) 0%,
+        rgba(62, 250, 240, 0.5) 3px,
+        rgba(0, 0, 0, 0) 0px
+      );
+    background-size: 2em 1em, 2em 1em;
+    background-color: rgb(20, 39, 79);
+    perspective: 1000px;
+    margin-top: 13em;
+    transform: perspective(200px) rotateX(45deg) scale(2);
+    animation: road 10s linear infinite;
+  }
+  .sun {
+    opacity: 0.9;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(180deg, #faf09d 0%, #fc9093 52.08%, #e92077 100%);
+    border-radius: 50%;
+    z-index: -1;
+    margin: 0 auto;
+    position: absolute;
+    top: 33%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    filter: blur(1px);
+  }
+  
+  .sun > .lines {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    bottom: -60%;
+    border-radius: 0 0 50% 50%;
+    overflow: hidden;
+  }
+  
+  .lines > .line {
+    width: 100%;
+    height: calc(5px * var(--pos));
+    background-color: rgba(0, 0, 0, 0.3);
+    mix-blend-mode: overlay;
+    margin-bottom: 1rem;
+  }
+  
+  @keyframes road {
+    from {
+      transform: perspective(200px) rotateX(45deg) scale(1.5);
+    }
+    to {
+      transform: perspective(200px) rotateX(45deg) scale(2.1);
+    }
+  }
+  
