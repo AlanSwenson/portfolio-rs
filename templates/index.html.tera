@@ -1,6 +1,7 @@
 <html>
   <head>
     {% include "styles" %}
+    {% include "scripts" %}
   </head>
   <body>
     <div class="content">
