@@ -1,0 +1,2 @@
+{% set inner = "Open Source Page" %}
+{{ macros::content_section(name="Open Source", inner=inner, data_id="3") }}

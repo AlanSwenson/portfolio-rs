@@ -1,0 +1,10 @@
+{% macro content_section(name, inner, data_id) %}
+    <div class="main-content col align-items-center" data-id="{{ data_id }}">
+        <h2>~~~{{ name }}~~~</h2>
+        <div class="inner">
+            <p>
+                {{ inner }}
+            </p>
+        </div>
+    </div>
+{% endmacro content_section %}

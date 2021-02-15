@@ -10,7 +10,7 @@ use std::collections::HashMap;
 #[get("/")]
 fn index() -> Template {
     let context: HashMap<&str, &str> = [("name", "Alan Swenson")].iter().cloned().collect();
-    Template::render("index", &context)
+    Template::render("main", &context)
 }
 
 fn main() {

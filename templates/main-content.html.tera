@@ -1,0 +1,6 @@
+<h2>~~~{% block h %}{% endblock h %}~~~</h2>
+<div class="inner">
+    <p>
+        {% block inner %}{% endblock inner %}
+    </p>
+</div>

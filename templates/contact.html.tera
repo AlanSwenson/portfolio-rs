@@ -1,0 +1,2 @@
+{% set inner = "Contact Page" %}
+{{ macros::content_section(name="Contact", inner=inner, data_id="5") }}
