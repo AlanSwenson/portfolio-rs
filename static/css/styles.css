@@ -149,6 +149,10 @@ header h2 {
     margin: 0;
 }
 
+footer {
+    font-family: "roadragefont";
+}
+
 /*
  *  Custom Scrollbar
  */

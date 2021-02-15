@@ -12,7 +12,8 @@
                 {% include "open-source" %}
                 {% include "speaking" %}
                 {% include "contact" %}
-                <div class="arrow right">next.
+                <div class="arrow right">
+                    next.
                 </div>
             </div>
         </div>
