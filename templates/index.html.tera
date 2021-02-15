@@ -1,22 +1,16 @@
 <html>
   <head>
-  <link rel="stylesheet" type="text/css" href="static/css/styles.css"/>
+    {% include "styles" %}
   </head>
   <body>
-  <header class="">
-
-  <div class="row">
-    <div class="col">
-      <h1 class="glow">Developer Portfolio</h1>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col">
-      <h2 class="glow">{{name}}</h2>
-    </div>
-  </div>
-    
+    <header class="">
+      {% include "header" %}
     </header>
+    <main>
+      {% include "main" %}
+    </main>
+    <footer>
+      {% include "footer" %}
+    </footer>
   </body>
 </html>
