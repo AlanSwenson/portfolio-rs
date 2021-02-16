@@ -1,7 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     {% include "styles" %}
     {% include "scripts" %}
+    <title>{{ name }} - Developer Portfolio</title>
+    <meta charset="UTF-8"/>
+    <meta content="{{ name }} Web Developer Portfolio" name="description"/>
+    <meta content="HTML, CSS, JavaScript, rust, tera" name="keywords"/>
+    <meta content="Alan Swenson" name="author"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   </head>
   <body>
     <div class="content">
