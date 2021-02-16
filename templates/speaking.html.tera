@@ -1,2 +1,2 @@
-{% set inner = `<a href="https://www.youtube.com/watch?v=MDpEOj6Fs24" target="_blank">JSON Web Tokens (JWT) with Flask - Talk at DC Python</a>` %}
+{% set inner = `<a href="https://www.youtube.com/watch?v=MDpEOj6Fs24" target="_blank" rel="noreferrer">JSON Web Tokens (JWT) with Flask - Talk at DC Python</a>` %}
 {{ macros::content_section(name="Speaking", inner=inner, data_id="4") }}
