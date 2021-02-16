@@ -1,13 +1,2 @@
-<div class="main-content col align-items-center" data-id="4">
-    <h2>~~~Speaking~~~</h2>
-    <div class="inner">
-        <iframe
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            frameborder="0"
-            height="315"
-            loading="lazy"
-            src="https://www.youtube.com/embed/MDpEOj6Fs24"
-            width="560"></iframe>
-    </div>
-</div>
+{% set inner = `<a href="https://www.youtube.com/watch?v=MDpEOj6Fs24" target="_blank">JSON Web Tokens (JWT) with Flask - Talk at DC Python</a>` %}
+{{ macros::content_section(name="Speaking", inner=inner, data_id="4") }}

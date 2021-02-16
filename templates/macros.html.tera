@@ -3,7 +3,7 @@
         <h2>~~~{{ name }}~~~</h2>
         <div class="inner">
             <p>
-                {{ inner }}
+                {{ inner | safe }}
             </p>
         </div>
     </div>
