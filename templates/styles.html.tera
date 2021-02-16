@@ -1,4 +1,4 @@
-<link as="font" crossorigin="anonymous" href="static/fonts/Road_Rage.woff" rel="preload" type="font/woff"/>
-<link as="font" crossorigin="anonymous" href="static/fonts/whitrabt.woff" rel="preload" type="font/woff"/>
-<link as="style" href="static/css/styles.css" rel="stylesheet" type="text/css"/>
-<link href="static/css/fonts.css" media="none" onload="if(media!='all')media='all'" rel="stylesheet"/>
+<link as="font" crossorigin="anonymous" href="fonts/Road_Rage.woff" rel="preload" type="font/woff"/>
+<link as="font" crossorigin="anonymous" href="fonts/whitrabt.woff" rel="preload" type="font/woff"/>
+<link as="style" href="css/styles.css" rel="stylesheet" type="text/css"/>
+<link href="css/fonts.css" media="none" onload="if(media!='all')media='all'" rel="stylesheet"/>
