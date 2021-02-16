@@ -4,16 +4,14 @@
 
 @font-face {
     font-family: whiterabbit;
-    src:    url('../fonts/whitrabt.eot');
-    src:    url('../fonts/whitrabt.woff') format('woff'), 
-            url('../fonts/whitrabt.ttf') format('truetype'), 
-            url('../fonts/whitrabt.svg') format('svg'),
-            url("../fonts/whitrabt.otf") format("opentype");
+    src:    url('../fonts/whitrabt.woff') format('woff');
+    font-display: swap;
 }
 
 @font-face {
     font-family: roadragefont;
     src: url("../fonts/Road_Rage.otf") format("opentype");
+    font-display: swap;
 }
 
 .row {
