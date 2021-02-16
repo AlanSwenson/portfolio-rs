@@ -1,0 +1,11 @@
+@font-face {
+    font-family: whiterabbit;
+    src:    url('../fonts/whitrabt.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: roadragefont;
+    src: url("../fonts/Road_Rage.otf") format("opentype");
+    font-display: swap;
+}

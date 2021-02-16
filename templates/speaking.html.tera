@@ -6,6 +6,7 @@
             allowfullscreen
             frameborder="0"
             height="315"
+            loading="lazy"
             src="https://www.youtube.com/embed/MDpEOj6Fs24"
             width="560"></iframe>
     </div>
