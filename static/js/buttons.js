@@ -17,6 +17,7 @@ $(document).ready(function () {
     $('[data-id=1]').addClass('active');
 
     // use arrows to cycle through sections
+    // TODO: add touch mehtod to this as well
     $('.arrow').click(function () {
         var current_active = $('.active')
         var id = current_active.data("id");
