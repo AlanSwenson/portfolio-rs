@@ -1,2 +1,4 @@
-{% set inner = "Open Source Page" %}
+{% set inner = `I contributied to a Python to Rust port
+of <a href="https://github.com/rust-dc/fish-manpage-completions">Fish Manpage Completetions</a> with 
+<a href="https://github.com/rust-dc">Rust DC</a>` %}
 {{ macros::content_section(name="Open Source", inner=inner, data_id="3") }}
