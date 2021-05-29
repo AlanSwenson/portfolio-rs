@@ -88,7 +88,14 @@ main {
     padding-right: 10px;
 }
 
-.arrow {
+a, a:visited {
+    padding: .2em;
+    background-color: purple;
+    color: greenyellow;
+    filter: drop-shadow(0 0 .2rem purple);
+}
+
+.arrow  {
     padding: .5em 1em;
     background-color: purple;
     height: max-content;
@@ -96,7 +103,9 @@ main {
     border-style: solid;
     border-color: greenyellow;
     border-width: 2px;
-    
+    color: greenyellow;
+    text-decoration: none;
+    filter: drop-shadow(0 0 .2rem purple); 
 }
 .right {
     cursor: e-resize;
